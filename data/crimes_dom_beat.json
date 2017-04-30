@@ -1,0 +1,1090 @@
+var crimes = [
+ {
+   "beat_num": 421,
+   "crimes": 333
+ },
+ {
+   "beat_num": 624,
+   "crimes": 271
+ },
+ {
+   "beat_num": 631,
+   "crimes": 267
+ },
+ {
+   "beat_num": 423,
+   "crimes": 255
+ },
+ {
+   "beat_num": 612,
+   "crimes": 238
+ },
+ {
+   "beat_num": 414,
+   "crimes": 231
+ },
+ {
+   "beat_num": 1522,
+   "crimes": 229
+ },
+ {
+   "beat_num": 621,
+   "crimes": 227
+ },
+ {
+   "beat_num": 1011,
+   "crimes": 217
+ },
+ {
+   "beat_num": 513,
+   "crimes": 199
+ },
+ {
+   "beat_num": 1133,
+   "crimes": 198
+ },
+ {
+   "beat_num": 1523,
+   "crimes": 191
+ },
+ {
+   "beat_num": 1112,
+   "crimes": 189
+ },
+ {
+   "beat_num": 511,
+   "crimes": 188
+ },
+ {
+   "beat_num": 312,
+   "crimes": 187
+ },
+ {
+   "beat_num": 1533,
+   "crimes": 185
+ },
+ {
+   "beat_num": 424,
+   "crimes": 181
+ },
+ {
+   "beat_num": 321,
+   "crimes": 178
+ },
+ {
+   "beat_num": 2532,
+   "crimes": 175
+ },
+ {
+   "beat_num": 323,
+   "crimes": 174
+ },
+ {
+   "beat_num": 1532,
+   "crimes": 170
+ },
+ {
+   "beat_num": 2534,
+   "crimes": 170
+ },
+ {
+   "beat_num": 712,
+   "crimes": 169
+ },
+ {
+   "beat_num": 825,
+   "crimes": 169
+ },
+ {
+   "beat_num": 324,
+   "crimes": 168
+ },
+ {
+   "beat_num": 522,
+   "crimes": 168
+ },
+ {
+   "beat_num": 823,
+   "crimes": 168
+ },
+ {
+   "beat_num": 1531,
+   "crimes": 167
+ },
+ {
+   "beat_num": 422,
+   "crimes": 165
+ },
+ {
+   "beat_num": 632,
+   "crimes": 165
+ },
+ {
+   "beat_num": 1021,
+   "crimes": 164
+ },
+ {
+   "beat_num": 831,
+   "crimes": 163
+ },
+ {
+   "beat_num": 832,
+   "crimes": 162
+ },
+ {
+   "beat_num": 331,
+   "crimes": 161
+ },
+ {
+   "beat_num": 332,
+   "crimes": 160
+ },
+ {
+   "beat_num": 512,
+   "crimes": 156
+ },
+ {
+   "beat_num": 322,
+   "crimes": 155
+ },
+ {
+   "beat_num": 725,
+   "crimes": 155
+ },
+ {
+   "beat_num": 713,
+   "crimes": 153
+ },
+ {
+   "beat_num": 533,
+   "crimes": 151
+ },
+ {
+   "beat_num": 1111,
+   "crimes": 151
+ },
+ {
+   "beat_num": 1014,
+   "crimes": 150
+ },
+ {
+   "beat_num": 1122,
+   "crimes": 150
+ },
+ {
+   "beat_num": 431,
+   "crimes": 147
+ },
+ {
+   "beat_num": 613,
+   "crimes": 146
+ },
+ {
+   "beat_num": 723,
+   "crimes": 145
+ },
+ {
+   "beat_num": 1121,
+   "crimes": 144
+ },
+ {
+   "beat_num": 1135,
+   "crimes": 144
+ },
+ {
+   "beat_num": 735,
+   "crimes": 140
+ },
+ {
+   "beat_num": 1022,
+   "crimes": 140
+ },
+ {
+   "beat_num": 614,
+   "crimes": 139
+ },
+ {
+   "beat_num": 623,
+   "crimes": 139
+ },
+ {
+   "beat_num": 1113,
+   "crimes": 139
+ },
+ {
+   "beat_num": 1511,
+   "crimes": 138
+ },
+ {
+   "beat_num": 1132,
+   "crimes": 137
+ },
+ {
+   "beat_num": 523,
+   "crimes": 135
+ },
+ {
+   "beat_num": 1524,
+   "crimes": 135
+ },
+ {
+   "beat_num": 524,
+   "crimes": 134
+ },
+ {
+   "beat_num": 611,
+   "crimes": 133
+ },
+ {
+   "beat_num": 1512,
+   "crimes": 131
+ },
+ {
+   "beat_num": 731,
+   "crimes": 130
+ },
+ {
+   "beat_num": 1513,
+   "crimes": 130
+ },
+ {
+   "beat_num": 1024,
+   "crimes": 129
+ },
+ {
+   "beat_num": 1123,
+   "crimes": 124
+ },
+ {
+   "beat_num": 1422,
+   "crimes": 124
+ },
+ {
+   "beat_num": 412,
+   "crimes": 122
+ },
+ {
+   "beat_num": 732,
+   "crimes": 122
+ },
+ {
+   "beat_num": 1723,
+   "crimes": 121
+ },
+ {
+   "beat_num": 2222,
+   "crimes": 121
+ },
+ {
+   "beat_num": 334,
+   "crimes": 120
+ },
+ {
+   "beat_num": 711,
+   "crimes": 120
+ },
+ {
+   "beat_num": 733,
+   "crimes": 120
+ },
+ {
+   "beat_num": 2223,
+   "crimes": 119
+ },
+ {
+   "beat_num": 411,
+   "crimes": 118
+ },
+ {
+   "beat_num": 724,
+   "crimes": 118
+ },
+ {
+   "beat_num": 824,
+   "crimes": 117
+ },
+ {
+   "beat_num": 1031,
+   "crimes": 117
+ },
+ {
+   "beat_num": 2521,
+   "crimes": 117
+ },
+ {
+   "beat_num": 532,
+   "crimes": 116
+ },
+ {
+   "beat_num": 726,
+   "crimes": 116
+ },
+ {
+   "beat_num": 822,
+   "crimes": 116
+ },
+ {
+   "beat_num": 2234,
+   "crimes": 116
+ },
+ {
+   "beat_num": 1013,
+   "crimes": 115
+ },
+ {
+   "beat_num": 2515,
+   "crimes": 115
+ },
+ {
+   "beat_num": 2522,
+   "crimes": 113
+ },
+ {
+   "beat_num": 212,
+   "crimes": 111
+ },
+ {
+   "beat_num": 432,
+   "crimes": 111
+ },
+ {
+   "beat_num": 834,
+   "crimes": 111
+ },
+ {
+   "beat_num": 923,
+   "crimes": 111
+ },
+ {
+   "beat_num": 922,
+   "crimes": 110
+ },
+ {
+   "beat_num": 222,
+   "crimes": 109
+ },
+ {
+   "beat_num": 313,
+   "crimes": 109
+ },
+ {
+   "beat_num": 333,
+   "crimes": 108
+ },
+ {
+   "beat_num": 2413,
+   "crimes": 108
+ },
+ {
+   "beat_num": 934,
+   "crimes": 107
+ },
+ {
+   "beat_num": 1712,
+   "crimes": 107
+ },
+ {
+   "beat_num": 2422,
+   "crimes": 107
+ },
+ {
+   "beat_num": 633,
+   "crimes": 106
+ },
+ {
+   "beat_num": 1012,
+   "crimes": 106
+ },
+ {
+   "beat_num": 2232,
+   "crimes": 106
+ },
+ {
+   "beat_num": 2533,
+   "crimes": 106
+ },
+ {
+   "beat_num": 231,
+   "crimes": 105
+ },
+ {
+   "beat_num": 232,
+   "crimes": 105
+ },
+ {
+   "beat_num": 1134,
+   "crimes": 105
+ },
+ {
+   "beat_num": 2512,
+   "crimes": 105
+ },
+ {
+   "beat_num": 213,
+   "crimes": 104
+ },
+ {
+   "beat_num": 2514,
+   "crimes": 104
+ },
+ {
+   "beat_num": 413,
+   "crimes": 103
+ },
+ {
+   "beat_num": 2535,
+   "crimes": 103
+ },
+ {
+   "beat_num": 921,
+   "crimes": 102
+ },
+ {
+   "beat_num": 2531,
+   "crimes": 102
+ },
+ {
+   "beat_num": 715,
+   "crimes": 101
+ },
+ {
+   "beat_num": 722,
+   "crimes": 100
+ },
+ {
+   "beat_num": 813,
+   "crimes": 99
+ },
+ {
+   "beat_num": 931,
+   "crimes": 98
+ },
+ {
+   "beat_num": 1634,
+   "crimes": 98
+ },
+ {
+   "beat_num": 1124,
+   "crimes": 94
+ },
+ {
+   "beat_num": 1633,
+   "crimes": 94
+ },
+ {
+   "beat_num": 225,
+   "crimes": 93
+ },
+ {
+   "beat_num": 531,
+   "crimes": 92
+ },
+ {
+   "beat_num": 924,
+   "crimes": 92
+ },
+ {
+   "beat_num": 833,
+   "crimes": 91
+ },
+ {
+   "beat_num": 933,
+   "crimes": 91
+ },
+ {
+   "beat_num": 1131,
+   "crimes": 91
+ },
+ {
+   "beat_num": 835,
+   "crimes": 90
+ },
+ {
+   "beat_num": 1914,
+   "crimes": 90
+ },
+ {
+   "beat_num": 1115,
+   "crimes": 88
+ },
+ {
+   "beat_num": 1234,
+   "crimes": 88
+ },
+ {
+   "beat_num": 2221,
+   "crimes": 88
+ },
+ {
+   "beat_num": 2511,
+   "crimes": 88
+ },
+ {
+   "beat_num": 932,
+   "crimes": 87
+ },
+ {
+   "beat_num": 1211,
+   "crimes": 86
+ },
+ {
+   "beat_num": 1033,
+   "crimes": 85
+ },
+ {
+   "beat_num": 1622,
+   "crimes": 84
+ },
+ {
+   "beat_num": 734,
+   "crimes": 83
+ },
+ {
+   "beat_num": 1114,
+   "crimes": 83
+ },
+ {
+   "beat_num": 1225,
+   "crimes": 83
+ },
+ {
+   "beat_num": 2523,
+   "crimes": 83
+ },
+ {
+   "beat_num": 815,
+   "crimes": 82
+ },
+ {
+   "beat_num": 2424,
+   "crimes": 82
+ },
+ {
+   "beat_num": 2212,
+   "crimes": 81
+ },
+ {
+   "beat_num": 433,
+   "crimes": 80
+ },
+ {
+   "beat_num": 434,
+   "crimes": 80
+ },
+ {
+   "beat_num": 1731,
+   "crimes": 80
+ },
+ {
+   "beat_num": 915,
+   "crimes": 79
+ },
+ {
+   "beat_num": 1233,
+   "crimes": 79
+ },
+ {
+   "beat_num": 133,
+   "crimes": 78
+ },
+ {
+   "beat_num": 1222,
+   "crimes": 78
+ },
+ {
+   "beat_num": 1623,
+   "crimes": 78
+ },
+ {
+   "beat_num": 913,
+   "crimes": 77
+ },
+ {
+   "beat_num": 311,
+   "crimes": 74
+ },
+ {
+   "beat_num": 223,
+   "crimes": 73
+ },
+ {
+   "beat_num": 714,
+   "crimes": 73
+ },
+ {
+   "beat_num": 912,
+   "crimes": 73
+ },
+ {
+   "beat_num": 2233,
+   "crimes": 73
+ },
+ {
+   "beat_num": 224,
+   "crimes": 72
+ },
+ {
+   "beat_num": 1722,
+   "crimes": 71
+ },
+ {
+   "beat_num": 214,
+   "crimes": 70
+ },
+ {
+   "beat_num": 221,
+   "crimes": 70
+ },
+ {
+   "beat_num": 1223,
+   "crimes": 70
+ },
+ {
+   "beat_num": 1724,
+   "crimes": 70
+ },
+ {
+   "beat_num": 2412,
+   "crimes": 70
+ },
+ {
+   "beat_num": 314,
+   "crimes": 68
+ },
+ {
+   "beat_num": 1713,
+   "crimes": 67
+ },
+ {
+   "beat_num": 1733,
+   "crimes": 67
+ },
+ {
+   "beat_num": 2525,
+   "crimes": 67
+ },
+ {
+   "beat_num": 1034,
+   "crimes": 66
+ },
+ {
+   "beat_num": 1624,
+   "crimes": 66
+ },
+ {
+   "beat_num": 2411,
+   "crimes": 66
+ },
+ {
+   "beat_num": 935,
+   "crimes": 65
+ },
+ {
+   "beat_num": 634,
+   "crimes": 64
+ },
+ {
+   "beat_num": 1423,
+   "crimes": 63
+ },
+ {
+   "beat_num": 821,
+   "crimes": 62
+ },
+ {
+   "beat_num": 911,
+   "crimes": 62
+ },
+ {
+   "beat_num": 215,
+   "crimes": 61
+ },
+ {
+   "beat_num": 1023,
+   "crimes": 61
+ },
+ {
+   "beat_num": 1412,
+   "crimes": 61
+ },
+ {
+   "beat_num": 1421,
+   "crimes": 61
+ },
+ {
+   "beat_num": 1821,
+   "crimes": 61
+ },
+ {
+   "beat_num": 2011,
+   "crimes": 61
+ },
+ {
+   "beat_num": 814,
+   "crimes": 60
+ },
+ {
+   "beat_num": 812,
+   "crimes": 59
+ },
+ {
+   "beat_num": 925,
+   "crimes": 59
+ },
+ {
+   "beat_num": 1631,
+   "crimes": 58
+ },
+ {
+   "beat_num": 2524,
+   "crimes": 58
+ },
+ {
+   "beat_num": 811,
+   "crimes": 57
+ },
+ {
+   "beat_num": 1632,
+   "crimes": 57
+ },
+ {
+   "beat_num": 1032,
+   "crimes": 56
+ },
+ {
+   "beat_num": 2213,
+   "crimes": 56
+ },
+ {
+   "beat_num": 2423,
+   "crimes": 56
+ },
+ {
+   "beat_num": 2211,
+   "crimes": 55
+ },
+ {
+   "beat_num": 211,
+   "crimes": 54
+ },
+ {
+   "beat_num": 234,
+   "crimes": 51
+ },
+ {
+   "beat_num": 1913,
+   "crimes": 51
+ },
+ {
+   "beat_num": 1732,
+   "crimes": 50
+ },
+ {
+   "beat_num": 1231,
+   "crimes": 49
+ },
+ {
+   "beat_num": 123,
+   "crimes": 48
+ },
+ {
+   "beat_num": 1232,
+   "crimes": 48
+ },
+ {
+   "beat_num": 1235,
+   "crimes": 48
+ },
+ {
+   "beat_num": 1915,
+   "crimes": 48
+ },
+ {
+   "beat_num": 622,
+   "crimes": 47
+ },
+ {
+   "beat_num": 1411,
+   "crimes": 47
+ },
+ {
+   "beat_num": 1834,
+   "crimes": 47
+ },
+ {
+   "beat_num": 132,
+   "crimes": 46
+ },
+ {
+   "beat_num": 131,
+   "crimes": 45
+ },
+ {
+   "beat_num": 1924,
+   "crimes": 45
+ },
+ {
+   "beat_num": 1614,
+   "crimes": 43
+ },
+ {
+   "beat_num": 2432,
+   "crimes": 42
+ },
+ {
+   "beat_num": 1125,
+   "crimes": 41
+ },
+ {
+   "beat_num": 1831,
+   "crimes": 41
+ },
+ {
+   "beat_num": 2433,
+   "crimes": 41
+ },
+ {
+   "beat_num": 1414,
+   "crimes": 40
+ },
+ {
+   "beat_num": 914,
+   "crimes": 39
+ },
+ {
+   "beat_num": 1221,
+   "crimes": 39
+ },
+ {
+   "beat_num": 1413,
+   "crimes": 39
+ },
+ {
+   "beat_num": 2022,
+   "crimes": 38
+ },
+ {
+   "beat_num": 2513,
+   "crimes": 38
+ },
+ {
+   "beat_num": 1215,
+   "crimes": 36
+ },
+ {
+   "beat_num": 1434,
+   "crimes": 35
+ },
+ {
+   "beat_num": 1611,
+   "crimes": 35
+ },
+ {
+   "beat_num": 1931,
+   "crimes": 34
+ },
+ {
+   "beat_num": 2024,
+   "crimes": 34
+ },
+ {
+   "beat_num": 2431,
+   "crimes": 34
+ },
+ {
+   "beat_num": 1613,
+   "crimes": 33
+ },
+ {
+   "beat_num": 2012,
+   "crimes": 33
+ },
+ {
+   "beat_num": 114,
+   "crimes": 32
+ },
+ {
+   "beat_num": 233,
+   "crimes": 32
+ },
+ {
+   "beat_num": 235,
+   "crimes": 31
+ },
+ {
+   "beat_num": 1212,
+   "crimes": 31
+ },
+ {
+   "beat_num": 1925,
+   "crimes": 31
+ },
+ {
+   "beat_num": 2023,
+   "crimes": 31
+ },
+ {
+   "beat_num": 122,
+   "crimes": 30
+ },
+ {
+   "beat_num": 1224,
+   "crimes": 30
+ },
+ {
+   "beat_num": 1431,
+   "crimes": 30
+ },
+ {
+   "beat_num": 1823,
+   "crimes": 30
+ },
+ {
+   "beat_num": 1424,
+   "crimes": 28
+ },
+ {
+   "beat_num": 1711,
+   "crimes": 28
+ },
+ {
+   "beat_num": 1213,
+   "crimes": 27
+ },
+ {
+   "beat_num": 1911,
+   "crimes": 27
+ },
+ {
+   "beat_num": 1833,
+   "crimes": 26
+ },
+ {
+   "beat_num": 1923,
+   "crimes": 26
+ },
+ {
+   "beat_num": 1612,
+   "crimes": 25
+ },
+ {
+   "beat_num": 1824,
+   "crimes": 25
+ },
+ {
+   "beat_num": 1432,
+   "crimes": 24
+ },
+ {
+   "beat_num": 1922,
+   "crimes": 24
+ },
+ {
+   "beat_num": 1934,
+   "crimes": 23
+ },
+ {
+   "beat_num": 111,
+   "crimes": 22
+ },
+ {
+   "beat_num": 1822,
+   "crimes": 22
+ },
+ {
+   "beat_num": 2013,
+   "crimes": 22
+ },
+ {
+   "beat_num": 1214,
+   "crimes": 21
+ },
+ {
+   "beat_num": 1935,
+   "crimes": 21
+ },
+ {
+   "beat_num": 1433,
+   "crimes": 20
+ },
+ {
+   "beat_num": 1832,
+   "crimes": 20
+ },
+ {
+   "beat_num": 1921,
+   "crimes": 20
+ },
+ {
+   "beat_num": 1811,
+   "crimes": 19
+ },
+ {
+   "beat_num": 1933,
+   "crimes": 19
+ },
+ {
+   "beat_num": 1621,
+   "crimes": 18
+ },
+ {
+   "beat_num": 1932,
+   "crimes": 18
+ },
+ {
+   "beat_num": 2033,
+   "crimes": 18
+ },
+ {
+   "beat_num": 1912,
+   "crimes": 17
+ },
+ {
+   "beat_num": 124,
+   "crimes": 16
+ },
+ {
+   "beat_num": 2031,
+   "crimes": 16
+ },
+ {
+   "beat_num": 1813,
+   "crimes": 15
+ },
+ {
+   "beat_num": 1814,
+   "crimes": 14
+ },
+ {
+   "beat_num": 112,
+   "crimes": 13
+ },
+ {
+   "beat_num": 113,
+   "crimes": 10
+ },
+ {
+   "beat_num": 1812,
+   "crimes": 10
+ },
+ {
+   "beat_num": 121,
+   "crimes": 9
+ },
+ {
+   "beat_num": 2032,
+   "crimes": 5
+ },
+ {
+   "beat_num": 1651,
+   "crimes": 4
+ },
+ {
+   "beat_num": 1653,
+   "crimes": 1
+ },
+ {
+   "beat_num": 1654,
+   "crimes": 1
+ }
+];
